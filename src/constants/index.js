@@ -1,24 +1,38 @@
 
-export const navigation = [
+// export const navigation = [
+//   {
+//     id: "0",
+//     title: "About",
+//     url: "#about",
+//   },
+//   {
+//     id: "1",
+//     title: "Directory",
+//     url: "#directory",
+//   },
+//   {
+//     id: "2",
+//     title: "Testimonials",
+//     url: "#testimonials",
+//   },
+//   {
+//     id: "3",
+//     title: "Contact",
+//     url: "#contact",
+//   },
+// ]
+export const links = [
   {
-    id: "0",
-    title: "About",
-    url: "#about",
+      title: "Projects",
+      href: "/"
   },
   {
-    id: "1",
-    title: "Directory",
-    url: "#directory",
+      title: "Agency",
+      href: "/"
   },
   {
-    id: "2",
-    title: "Testimonials",
-    url: "#testimonials",
-  },
-  {
-    id: "3",
-    title: "Contact",
-    url: "#contact",
+      title: "Expertise",
+      href: "/"
   },
 ]
 

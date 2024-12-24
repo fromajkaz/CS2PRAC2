@@ -1,7 +1,7 @@
 import "./globals.css";
 import {Roboto_Mono} from "next/font/google"
 import { Orbitron } from "next/font/google";
-import Nav from "@/components/Nav";
+import Nav from "@/components/Header/Header";
 import BlurBackground from "@/components/BlurBackground";
 
 const roboto = Roboto_Mono({

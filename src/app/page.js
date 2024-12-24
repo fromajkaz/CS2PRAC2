@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";;
 import BlurBackground from "@/components/BlurBackground";
 import { useScroll ,useSpring, motion} from "framer-motion";
-import Nav from "@/components/Nav";
+import Nav from "@/components/Header/Header";
 import Homepage from "./homepage/page";
 
 export default function Home() {

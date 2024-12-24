@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div>
       <div>
-        asdkanjskjl
+        pick
       </div>
     </div>
   )
