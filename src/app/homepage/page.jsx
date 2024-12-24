@@ -13,7 +13,7 @@ const orbitron = Orbitron({
 const Homepage = () => {
   return (
     <main className={`${orbitron} text-center items-center flex`} >
-    <div className='mt-20'>
+    <div className='mt-10'>
       <p className='text-base text-customGray tracking-widest mb-3'>{hero.smallTitle}</p>
       <h1 className='font-bold text-3xl md:text-6xl lg:text-7xl tracking-wider mb-5'>{hero.title}<span className={`${orbitron.className} text-indigo-500 uppercase`}>{hero.titleSpan}</span></h1>
       <p className='text-base text-customGray tracking-widest mb-10'>{hero.subtitle}</p>
