@@ -1,5 +1,4 @@
 .button{
-  position: fixed;
   right: 40px;
   z-index: 2;
   width: 50px;
@@ -10,6 +9,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.button:hover {
+  transition: all;
+  transition-duration: 500ms;
+  background-color: #161a31 
 }
 
 .burger{

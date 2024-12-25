@@ -4,25 +4,7 @@ import { motion } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 import { menuSlide } from '../Header/anim';
 import Link from '../Link/index'
-
-const navItems = [
-  {
-    title: "HOME",
-    href: "/",
-  },
-  {
-    title: "TACTICS",
-    href: "/tactics",
-  },
-  {
-    title: "GRENADE",
-    href: "/grenade",
-  },
-  {
-    title: "AIM",
-    href: "/aim",
-  },
-]
+import { navItems } from '@/constants';
 
 export default function index() {
 
@@ -54,7 +36,6 @@ export default function index() {
                     }
             </div>
             <div className={styles.footer}>
-                <a>Awwwards</a>
                 <a>Instagram</a>
                 <a>Dribble</a>
                 <a>LinkedIn</a>

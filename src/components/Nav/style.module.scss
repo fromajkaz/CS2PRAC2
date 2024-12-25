@@ -7,6 +7,7 @@
   color: white;
 
   .body{
+      margin-right: 60px;
       box-sizing: border-box;
       height: 100%;
       padding: 100px;
@@ -18,7 +19,7 @@
           display: flex;
           flex-direction: column;
           font-size: 56px;
-          gap: 2px;
+          gap: 10px;
           margin-top: 50px;
 
           .header{
@@ -26,7 +27,7 @@
               border-bottom: 1px solid #C1C2D3;
               text-transform: uppercase;
               font-size: 11px;
-              margin-bottom: 40px;
+              margin-bottom: 100px;
           }
 
           a{

@@ -1,38 +1,20 @@
 
-// export const navigation = [
-//   {
-//     id: "0",
-//     title: "About",
-//     url: "#about",
-//   },
-//   {
-//     id: "1",
-//     title: "Directory",
-//     url: "#directory",
-//   },
-//   {
-//     id: "2",
-//     title: "Testimonials",
-//     url: "#testimonials",
-//   },
-//   {
-//     id: "3",
-//     title: "Contact",
-//     url: "#contact",
-//   },
-// ]
-export const links = [
+export  const navItems = [
   {
-      title: "Projects",
-      href: "/"
+    title: "HOME",
+    href: "/",
   },
   {
-      title: "Agency",
-      href: "/"
+    title: "TACTICS",
+    href: "/tactics",
   },
   {
-      title: "Expertise",
-      href: "/"
+    title: "GRENADE",
+    href: "/grenade",
+  },
+  {
+    title: "AIM",
+    href: "/aim",
   },
 ]
 
@@ -44,23 +26,19 @@ export const hero = {
   button: "Let`s Go"
 }
 
-// export const card = {
-//   title: "I prioritize client collaboration, fostering open communication ",
-//   title1: "I’m very flexible with time zone communications",
-//   title2: "My tech stack",
-//   title3: "Tech enthusiast with a passion for development.",
-//   title4: "Do you want to start a project together?",
-//   title5: "Currently building a JS Animation library",
-//   subtitle: "I constantly try to improve",
-//   subtitle2: "The Inside Scoop",
-//   tech: "ReactJS",
-//   tech1: "Express",
-//   tech2: "Typescript",
-//   tech3: "VueJS",
-//   tech4: "NuxtJS",
-//   tech5: "GraphQL",
-//   button: "Copy my email address",
-// } 
+export const card = {
+  cardTitle: "A PRACTICE MODE",
+  cardSubtitle: "CHOOSE",
+  title: "TACTICS",
+  title1: "GRENADE",
+  title2: "AIM",
+  title3: "",
+  title4: "",
+  title5: "",
+  subtitle: "",
+  subtitle2: "",
+  button: "",
+} 
 
 // export const gridItems = [
 //   {
