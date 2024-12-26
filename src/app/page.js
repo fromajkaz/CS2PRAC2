@@ -16,7 +16,7 @@ export default function Home() {
     <>
     <BlurBackground/>
     {/* <motion.div className="fixed top-0 left-0 bottom-0 right-0 h-2 bg-customPink origin-[0%] z-50" style={{ scaleX }} /> */}
-    <main className="max-w-7xl mx-auto p-10 ">
+    <main className="max-w-7xl antialiased overflow-x-hidden mx-auto ">
       <Homepage/>
     </main>
     </>

@@ -17,9 +17,9 @@ export default function index() {
       initial="initial" 
       animate="enter" 
       exit="exit" 
-      className={styles.menu}
+      className={`${styles.menu}`}
       >
-       <div className={styles.body}>
+       <div className={`${styles.body} `}>
             <div onMouseLeave={() => {setSelectedIndicator(pathname)}} className={styles.nav}>
                     <div className={styles.header}>
                         <p>Navigation</p>

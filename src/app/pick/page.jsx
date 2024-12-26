@@ -19,19 +19,19 @@ const page = () => {
       <div className='flex flex-col md:flex-row items-center justify-center h-auto gap-5  '>
         <Card
         href="/tactics"
-        imageSrc='/dm.webp' 
+        imageSrc='/image.jpg' 
         videoSrc="/DEATHMATCH.mp4"
         title={card.title}
         />
         <Card
         href="/grenade"
-        imageSrc='/dm.webp'
+        imageSrc='/image.jpg'
         videoSrc="/DEATHMATCH.mp4"
         title={card.title1}
         />
         <Card
         href="/aim"
-        imageSrc='/dm.webp'
+        imageSrc='/image.jpg'
         videoSrc="/DEATHMATCH.mp4"
         title={card.title2}
         />
