@@ -20,6 +20,7 @@ export  const navItems = [
 
 export const hero = {
   smallTitle: "CS2.PRAC - Tips and Tricks!",
+  beta: "beta",
   title: "Everything you need to become the best in  is here.",
   titleSpan: "Counter-Strike 2",
   subtitle: "From theory to practice in one step with CS2.PRAC",
@@ -32,13 +33,39 @@ export const card = {
   title: "TACTICS",
   title1: "GRENADE",
   title2: "AIM",
-  title3: "",
-  title4: "",
-  title5: "",
-  subtitle: "",
-  subtitle2: "",
-  button: "",
 } 
+
+export const cardTactics = {
+  cardTitle: "TACTICS",
+  title: "Ancient",
+  title1: "Anubis",
+  title2: "Dust2",
+  title3: "Inferno",
+  title4: "Mirage",
+  title5: "Nuke",
+  title6: "Vertigo",
+}
+export const cardGrenades = {
+  cardTitle: "GRENADES",
+  title: "Ancient",
+  title1: "Anubis",
+  title2: "Dust2",
+  title3: "Inferno",
+  title4: "Mirage",
+  title5: "Nuke",
+  title5: "Vertigo",
+}
+
+export const AIM = {
+  cardTitle: "AIM MAPS",
+  title: "Ancient",
+  title1: "Anubis",
+  title2: "Dust2",
+  title3: "Inferno",
+  title4: "Mirage",
+  title5: "Nuke",
+  title5: "Vertigo",
+}
 
 // export const gridItems = [
 //   {
