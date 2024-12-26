@@ -21,7 +21,7 @@ export  const navItems = [
 export const hero = {
   smallTitle: "CS2.PRAC - Tips and Tricks!",
   beta: "beta",
-  title: "Everything you need to become the best in  is here.",
+  title: "Everything you need to become the best player in",
   titleSpan: "Counter-Strike 2",
   subtitle: "From theory to practice in one step with CS2.PRAC",
   button: "Let`s Go"
